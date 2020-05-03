@@ -1,11 +1,15 @@
-﻿<Properties>
-  <MonoDevelop.Ide.ItemProperties.FloatingUITextField FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{28BCF8C0-D3D0-4446-B1EE-0011351242E3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FloatingUITextField_Example/CustomTextField.cs">
+    <Files>
+      <File FileName="FloatingUITextField_Example/CustomTextField.cs" Line="148" Column="176" />
+      <File FileName="FloatingUITextField_Example/CustomTextField.designer.cs" Line="12" Column="38" />
+      <File FileName="FloatingUITextField_Example/FloatingTextFieldConfig.cs" Line="10" Column="49" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FloatingUITextField" expanded="True" selected="True">
-            <Node name="FloatingUITextField" expanded="True" />
+          <Node name="FloatingUITextField" expanded="True">
+            <Node name="FloatingUITextField_Example" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -16,5 +20,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.FloatingUITextField__Example PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
   <MultiItemStartupConfigurations />
 </Properties>
