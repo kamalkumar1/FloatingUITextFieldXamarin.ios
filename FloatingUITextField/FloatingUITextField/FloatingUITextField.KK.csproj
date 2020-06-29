@@ -13,6 +13,19 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>FloatingUITextField</AssemblyName>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackOnBuild>true</PackOnBuild>
+    <NeutralLanguage>en-IN</NeutralLanguage>
+    <Copyright>copyright 2019</Copyright>
+    <Owners>kamal</Owners>
+    <PackageReleaseNotes>FloatingUITextField for XamariniOS  used to Moved the placeholder  top the textfiled and  add the line at the bottom of the textfield</PackageReleaseNotes>
+    <Summary>FloatingUITextField for XamariniOS  used to Moved the placeholder  top the textfiled and  add the line at the bottom of the textfield</Summary>
+    <Title>FloatingUITextField.XamariniOS </Title>
+    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+    <PackageId>FloatingUITextField.XamariniOS.kk</PackageId>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <Authors>kamal</Authors>
+    <PackageProjectUrl>https://github.com/kamalkumar1/FloatingUITextFieldXamarin.ios</PackageProjectUrl>
+    <Description>FloatingUITextField for XamariniOS  used to Moved the placeholder  top the textfiled and  add the line at the bottom of the textfield</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,13 +58,6 @@
     <Compile Include="FloatingUITextField.designer.cs" />
     <Compile Include="FloatingTextFieldConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="NuGet.CommandLine">
-      <Version>5.6.0</Version>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

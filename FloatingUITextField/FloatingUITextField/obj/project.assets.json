@@ -1,60 +1,32 @@
 {
   "version": 3,
   "targets": {
-    "Xamarin.iOS,Version=v1.0": {
-      "NuGet.CommandLine/5.6.0": {
-        "type": "package"
-      }
-    }
+    "Xamarin.iOS,Version=v1.0": {}
   },
-  "libraries": {
-    "NuGet.CommandLine/5.6.0": {
-      "sha512": "iI95oViB++PixglNKxELdaFcgFPH5D4Z+SbqvtGiSnuAsTJffKz9J5rcDV/r5yZ43dHp9sF+eaIACvllS+9x+A==",
-      "type": "package",
-      "path": "nuget.commandline/5.6.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "nuget.commandline.5.6.0.nupkg.sha512",
-        "nuget.commandline.nuspec",
-        "tools/NuGet.exe",
-        "tools/NuGet.pdb"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "Xamarin.iOS,Version=v1.0": [
-      "NuGet.CommandLine >= 5.6.0"
-    ]
+    "Xamarin.iOS,Version=v1.0": []
   },
   "packageFolders": {
-    "C:\\Users\\kamal\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/kamalkumar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamal\\Documents\\FloatingUITextFieldXamarin.ios\\FloatingUITextField\\FloatingUITextField\\FloatingUITextField.KK.csproj",
-      "projectName": "FloatingUITextField.KK",
-      "projectPath": "C:\\Users\\kamal\\Documents\\FloatingUITextFieldXamarin.ios\\FloatingUITextField\\FloatingUITextField\\FloatingUITextField.KK.csproj",
-      "packagesPath": "C:\\Users\\kamal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamal\\Documents\\FloatingUITextFieldXamarin.ios\\FloatingUITextField\\FloatingUITextField\\obj\\",
+      "projectUniqueName": "/Users/kamalkumar/Documents/Git/FloatingUITextFieldXamarin.ios/FloatingUITextField/FloatingUITextField/FloatingUITextField.KK.csproj",
+      "projectName": "FloatingUITextField.XamariniOS.kk",
+      "projectPath": "/Users/kamalkumar/Documents/Git/FloatingUITextFieldXamarin.ios/FloatingUITextField/FloatingUITextField/FloatingUITextField.KK.csproj",
+      "packagesPath": "/Users/kamalkumar/.nuget/packages/",
+      "outputPath": "/Users/kamalkumar/Documents/Git/FloatingUITextFieldXamarin.ios/FloatingUITextField/FloatingUITextField/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kamal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/kamalkumar/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,16 +36,7 @@
       }
     },
     "frameworks": {
-      "xamarinios10": {
-        "dependencies": {
-          "NuGet.CommandLine": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.6.0, )"
-          }
-        }
-      }
+      "xamarinios10": {}
     }
   }
 }

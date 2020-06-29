@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>FloatingUITextField.XamariniOS.kk</id>
+    <version>1.0.0.0</version>
+    <title>XamarinAudioPlayer</title>
+    <authors>kamal</authors>
+    <owners>kamal</owners>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/kamalkumar1/FloatingUITextFieldXamarin.ios</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FloatingUITextField for XamariniOS  used to Moved the placeholder  top the textfiled and  add the line at the bottom of the textfield</description>
+    <releaseNotes>FloatingUITextField for XamariniOS  used to Moved the placeholder  top the textfiled and  add the line at the bottom of the textfield.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>iOS xamarinios TextField UITextField</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="Xamarin.iOS" targetFramework="Xamarin.iOS1.0" />
+    </frameworkAssemblies >
+
+  </metadata>
+  <files>
+   <!-- Cross-platform reference assemblies -->
+
+    <!-- iOS reference assemblies -->
+        <file src="bin\Release\FloatingUITextField.dll" target="lib\xamarinios10\FloatingUITextField.dll" />
+        <file src="bin\Release\FloatingUITextField.pdb" target="lib\xamarinios10\FloatingUITextField.pdb" />
+
+        <!--<file src="XamarinAudioPlayer.iOS\bin\Release\XamarinAudioPlayer.xml" target="lib\xamarinios10\XamarinAudioPlayer.xml" />-->
+
+
+  </files>
+  </package>
