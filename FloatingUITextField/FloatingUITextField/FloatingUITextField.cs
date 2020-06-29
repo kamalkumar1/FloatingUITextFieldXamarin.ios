@@ -15,6 +15,8 @@ namespace FloatingUITextField.KK
         private UIView m_lineview;
         private UIColor m_lineColor = new UIColor(0.87f, 0.87f, 0.87f, 1.0f);
         private nfloat bottomhieght;
+
+        
         public override void Draw(CGRect rect)
         {
             //  m_lineColor = FloatingTextFieldConfig.FLOATING_THEME_COLOR != null ? FloatingTextFieldConfig.FLOATING_THEME_COLOR :  new UIColor(TintColor.CGColor);

@@ -12,6 +12,10 @@ namespace FloatingUITextField.KK
         public static UIColor FLOATING_THEME_COLOR;
         public static bool CLEAR_BUTTON_ENABLED;
 
+        public static void Init()
+        {
+
+        }
 
     }
 }
