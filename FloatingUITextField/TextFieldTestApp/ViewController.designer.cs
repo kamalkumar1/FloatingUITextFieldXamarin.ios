@@ -1,4 +1,4 @@
-// WARNING
+﻿// WARNING
 //
 // This file has been generated automatically by Visual Studio from the outlets and
 // actions declared in your storyboard file.
@@ -9,13 +9,10 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace FloatingUITextField.KK
+namespace TextFieldTestApp
 {
-    [Register ("FloatingUITextField")]
-    partial class FloatingUITextField
+    [Register("ViewController")]
+    partial class ViewController
     {
-        void ReleaseDesignerOutlets ()
-        {
-        }
     }
 }
